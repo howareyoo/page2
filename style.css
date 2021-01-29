@@ -33,8 +33,11 @@
   }
 
   #bt {
-    padding-left:33px;
-    padding-top:10px;
+    border-bottom:1px solid gray;
+    border-right:1px solid gray;
+    width:133px;
+    margin:0;
+    padding:10px;
   }
 
   @media(max-width: 800px) {
@@ -47,5 +50,9 @@
   h1 {
     border-bottom: none;
     }
+  #bt {
+    border-bottom: none;
+    border-right: none;
+  }
 
 </style>
